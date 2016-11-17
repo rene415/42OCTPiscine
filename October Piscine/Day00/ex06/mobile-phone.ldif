@@ -1,7 +1,0 @@
-dn: uid=rramirez,ou=july,ou=2016,ou=people,dc=42,dc=us,dc=org
-changetype: modify
-delete: mobile
-mobile: 415
--
-add: mobile
-mobile:1 (415)481-9297
