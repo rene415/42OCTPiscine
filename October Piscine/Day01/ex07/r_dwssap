@@ -1,0 +1,1 @@
+cat /etc/passwd | grep -v # | sed -n "n;p" | sed 's/:\*:.*//'| rev | sort -r | awk -v eight=$FT_LINE1 -v sixteen=$FT_LINE2 'NR>=eight && NR<=16'| sed "s/$/,/g" | tr '\n' ' ' | rev | cut -c 3- | rev | sed 's/$/./'
